@@ -1,0 +1,1864 @@
+* {
+        margin: 0%;
+        padding: 0%;
+}
+
+.container {
+        width: 100%;
+        height: auto;
+        background: #fff;
+}
+
+.topheader {
+        width: 100%;
+        height: 40px;
+        background: rgb(223, 222, 222);
+        display: flex;
+        align-items: center;
+}
+
+.topbox1 {
+        width: 19%;
+        height: 30px;
+        background: none;
+        color: blue;
+        margin-left: 6%;
+        padding: 5px 0 0 2%;
+        font-size: 20px;
+}
+
+.topbox1 a {
+        text-decoration: none;
+        color: black;
+}
+
+.topbox1 ul {
+        list-style: none;
+}
+
+.topbox1 ul li i {
+        margin-left: 10px;
+}
+
+.topbox2 {
+        width: 19%;
+        height: 30px;
+        background: none;
+        color: blue;
+        margin-left: 3%;
+        padding: 5px 0 0 1%;
+        font-size: 20px;
+}
+
+.topbox2 a {
+        text-decoration: none;
+        color: black;
+}
+
+.topbox2 ul {
+        list-style: none;
+}
+
+.iconbox {
+        width: 20%;
+        height: 35px;
+        background: transparent;
+        margin-left: 28%;
+}
+
+.iconbox ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+}
+
+.socialicon1 {
+        color: rgb(255, 0, 119);
+}
+
+.socialicon2 {
+        color: blue;
+}
+
+
+
+.header {
+        width: 100%;
+        height: 80px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        z-index: 999;
+}
+
+.logobox {
+        width: 10%;
+        height: 80px;
+        background: none;
+        margin-left: 5%;
+}
+
+.logobox img {
+        width: 100%;
+        height: auto;
+}
+
+.menubox {
+        width: 70%;
+        height: 55px;
+        background: #fff;
+        margin-left: 5%;
+        align-items: center;
+}
+
+.menubox ul li {
+        list-style: none;
+}
+
+.menubox ul li a {
+        text-decoration: none;
+        width: 10%;
+        height: 40px;
+        margin-left: 0.2%;
+        padding: 14px 0 0 4%;
+        background: none;
+        float: left;
+        color: black;
+        font-size: 20px;
+        font-family: robotolight;
+}
+
+.menubox ul li a {
+        border-radius: 5px;
+}
+
+.menubox ul li a:hover {
+        color: green;
+        background-color: lightgreen;
+}
+
+.banner {
+        width: 100%;
+        height: auto;
+        background: black;
+
+}
+
+.banner img {
+        width: 100%;
+}
+
+.welcome {
+        width: 100%;
+        height: 130px;
+        background: #fff;
+        margin: 40px 0 0 0;
+        font-size: 38px;
+        text-align: center;
+        color: green;
+}
+
+.welcome h5 {
+        color: red;
+        font-size: 24px;
+        padding-top: 20px;
+        font-family: arial;
+}
+
+.line {
+        width: 18%;
+        height: 5px;
+        background: #1d881d;
+        margin: 14px 0 0 41%;
+}
+
+.detailcontainer {
+        width: 98%;
+        height: 350px;
+        background: none;
+        margin: 20px 0 0 1%;
+        display: flex;
+        align-items: center;
+}
+
+.detail {
+        width: 90%;
+        height: 316px;
+        padding: 8px 1%;
+        margin: 0 0 0 4%;
+        background: #fff;
+        font-size: 20px;
+}
+
+.detail span {
+        color: rgb(0, 26, 255);
+}
+
+.detail p span {
+        color: green;
+}
+
+
+.facilities {
+        width: 100%;
+        height: 100px;
+        background: #fff;
+        padding-top: 25px;
+        margin: 20px 0 0 0;
+        font-size: 38px;
+        text-align: center;
+        color: green;
+}
+
+.line {
+        width: 16%;
+        height: 5px;
+        background: #1d881d;
+        margin: 14px 0 0 42%;
+}
+
+.facibox {
+        width: 96%;
+        height: 30px;
+        background: #fff;
+        padding: 0 0 0 2%;
+        margin: 40px 0 10px 1%;
+        font-size: 23px;
+}
+
+.facicontainer {
+        width: 98%;
+        height: 200px;
+        margin-left: 1%;
+        background: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.onebox {
+        width: 30%;
+        height: 200px;
+        background: #fff;
+}
+
+.onebox img {
+        width: 100%;
+        height: 200px;
+}
+
+.twobox {
+        width: 30%;
+        height: 200px;
+        background: white;
+}
+
+.twobox img {
+        width: 100%;
+        height: 200px;
+}
+
+.threebox {
+        width: 30%;
+        height: 200px;
+        background: white;
+}
+
+.threebox img {
+        width: 100%;
+        height: 200px;
+}
+
+.facititle {
+        width: 98%;
+        height: 30px;
+        margin-left: 1%;
+        background: #fff;
+        display: flex;
+        justify-content: space-around;
+}
+
+.onetitle {
+        width: 30%;
+        height: 25px;
+        background: pink;
+        text-align: center;
+        padding: 5px 0 0 0;
+}
+
+.twotitle {
+        width: 30%;
+        height: 25px;
+        background: pink;
+        text-align: center;
+        padding: 5px 0 0 0;
+}
+
+.threetitle {
+        width: 30%;
+        height: 25px;
+        background: pink;
+        text-align: center;
+        padding: 5px 0 0 0;
+}
+
+.rooms {
+        width: 100%;
+        height: 100px;
+        background: #fff;
+        padding-top: 25px;
+        margin: 70px 0 0 0;
+        font-size: 38px;
+        text-align: center;
+        color: green;
+}
+
+.line {
+        width: 10%;
+        height: 5px;
+        background: #1d881d;
+        margin: 14px 0 0 45%;
+}
+
+
+.roomcontainer {
+        width: 98%;
+        height: 580px;
+        background: white;
+        margin: 20px 0 0 1%;
+}
+
+.roomhead {
+        width: 98%;
+        height: 95px;
+        margin: 0 0 10px 0;
+        padding: 5px 0 0 2%;
+        background: white;
+        font-size: 20px;
+        font-family: robotolight;
+}
+
+.room1 {
+        width: 47%;
+        height: 350px;
+        background: red;
+        float: left;
+        margin: 0 0 0 2%;
+}
+
+.room1 img {
+        width: 100%;
+        height: auto;
+}
+
+.room2 {
+        width: 47%;
+        height: 350px;
+        background: orange;
+        float: right;
+        margin: 0 2% 0 0;
+}
+
+.room2 img {
+        width: 100%;
+        height: 350px;
+}
+
+.room1title {
+        width: 45%;
+        height: 43px;
+        background: #fff;
+        float: left;
+        margin: 0 0 0 2%;
+        font-family: robotolight;
+        font-size: 25px;
+        padding: 7px 0 0 2%;
+}
+
+.room2title {
+        width: 45%;
+        height: 43px;
+        background: #fff;
+        float: right;
+        margin: 0 2% 0 0;
+        font-family: robotolight;
+        font-size: 25px;
+        padding: 7px 0 0 2%;
+}
+
+
+.gallery {
+        width: 100%;
+        height: 100px;
+        background: #fff;
+        padding-top: 25px;
+        margin: 0 0 0 0;
+        font-size: 38px;
+        text-align: center;
+        color: green;
+}
+
+.line {
+        width: 10%;
+        height: 5px;
+        margin: 14px 0 0 45%;
+        background: #1d881d;
+}
+
+.gallerycontainer {
+        width: 98%;
+        height: 275px;
+        margin: 20px 0 0 1%;
+        display: flex;
+        justify-content: space-around;
+
+}
+
+.g1box {
+        width: 30%;
+        height: 225px;
+        background: #fff;
+}
+
+.g1box img {
+        width: 100%;
+        height: auto;
+}
+
+.g1content {
+        width: 65%;
+        height: 25px;
+        background: pink;
+        font-size: medium;
+        color: black;
+        padding: 5px 0 0 35%;
+}
+
+.g2box {
+        width: 30%;
+        height: 225px;
+        background: #fff;
+}
+
+.g2box img {
+        width: 100%;
+        height: auto;
+}
+
+.g2content {
+        width: 73%;
+        height: 25px;
+        background: pink;
+        font-size: medium;
+        color: black;
+        padding: 5px 0 0 27%;
+}
+
+.g3box {
+        width: 30%;
+        height: 225px;
+        background: #fff;
+}
+
+.g3box img {
+        width: 100%;
+        height: auto;
+}
+
+.g3content {
+        width: 72%;
+        height: 25px;
+        background: pink;
+        font-size: medium;
+        color: black;
+        padding: 5px 0 0 28%;
+}
+
+
+
+.tourism {
+        width: 100%;
+        height: 100px;
+        background: #fff;
+        padding-top: 25px;
+        margin: 80px 0 0 0;
+        font-size: 38px;
+        text-align: center;
+        color: green;
+}
+
+.line {
+        width: 10%;
+        height: 5px;
+        background: #1d881d;
+        margin: 14px 0 0 45%;
+        border-radius: 5px;
+}
+
+.tourismcontainer {
+        width: 98%;
+        height: 400px;
+        background: none;
+        margin: 30px 0 0 1%;
+        display: flex;
+        justify-content: space-around;
+}
+
+.tbox {
+        width: 50%;
+        height: 365px;
+        background: #fff;
+        overflow: hidden;
+        border-radius: 5px;
+}
+
+.effect {
+        width: 100%;
+        transition: 2s;
+}
+
+.effect img {
+        width: 100%;
+        height: 365px;
+        border-radius: 5px;
+}
+
+.effect:hover {
+        transform: scale(1.2);
+}
+
+.text {
+        width: 41%;
+        height: 340px;
+        color: rgba(0, 0, 0, 0.9);
+        font-family: robotolight;
+        background: #fff;
+        padding: 25px 2% 0 2%;
+        font-size: 20px;
+        line-height: 25px;
+}
+
+
+
+
+.footer {
+        width: 100%;
+        height: 300px;
+        background: rgba(0, 0, 0, 0.9);
+        margin: 80px 0 0 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.f1 {
+        width: 26%;
+        height: 230px;
+        background: none;
+        padding: 20px 0 0 4%;
+        font-size: 20px;
+}
+
+.f1 p {
+        color: green;
+}
+
+#new {
+        font-size: 20px;
+        font-family: gothamlight;
+        color: aliceblue;
+}
+
+.f2 {
+        width: 20%;
+        height: 235px;
+        background: none;
+        padding: 15px 0 0 10%;
+}
+
+.f2 ul {
+        list-style: none;
+        color: lightcoral;
+        font-size: 20px;
+}
+
+.f2 ul li {
+        color: white;
+        padding: 0 7%;
+}
+
+.f2 ul li a {
+        text-decoration: none;
+        color: lightslategray;
+}
+
+.f2 ul li a:hover {
+        color: blue;
+}
+
+
+
+.f3 {
+        width: 30%;
+        height: 250px;
+        background: none;
+}
+
+.f3 p {
+        color: lightcoral;
+        font-size: 20px;
+        font-family: robotolight;
+        padding: 15px 0 0 12%;
+}
+
+#email {
+        width: 55%;
+        height: 35px;
+        background: whitesmoke;
+        margin: 0 0 0 15%;
+        padding: 0 5%;
+        color: lightgray;
+        border: none
+}
+
+#btn {
+        width: 25%;
+        height: 35px;
+        background: red;
+        color: white;
+        margin: 0 15%;
+        border: none;
+}
+
+.ftbox {
+        width: 67%;
+        height: 50px;
+        background: rgba(0, 0, 0, 0.9);
+        margin: 0 0 0 0;
+        color: lightgray;
+        padding: 0 0 0 33%;
+}
+
+
+
+/* room page start */
+
+
+
+.roombnr {
+        width: 98%;
+        height: 350px;
+        margin: 20px 0 0 1%;
+}
+
+.roombnr img {
+        width: 100%;
+        height: 350px;
+}
+
+.toptext {
+        width: 80%;
+        height: 110px;
+        background: white;
+        margin: 40px 10%;
+        font-size: 18px;
+        font-family: sans-serif;
+        letter-spacing: 0.5px;
+        color: rgb(51, 51, 51);
+        padding: 20px 0 0 2%;
+}
+
+.roomheader {
+        width: 58%;
+        height: 65px;
+        background: orange;
+        margin-left: 1%;
+        font-size: 35px;
+        font-weight: bold;
+        padding: 25px 0 0 40%;
+}
+
+.deluxecontainer {
+        width: 98%;
+        height: 410px;
+        margin: 50px 0 0 1%;
+        background: white;
+        display: flex;
+        justify-content: center;
+}
+
+.deluxeimgbox {
+        width: 50%;
+        height: 400px;
+        background: white;
+        margin-top: 5px;
+}
+
+.deluxeimgbox img {
+        width: 80%;
+        height: 400px;
+        margin-left: 9%;
+        box-shadow: 10px 10px 25px 0 rgb(180, 178, 178);
+}
+
+.deluxepackage {
+        width: 48%;
+        height: 350px;
+        background: white;
+        margin-left: 2%;
+}
+
+.deluxepackage ul {
+        margin: 20px 0 40px 18%;
+        font-size: 25px;
+        color: saddlebrown;
+}
+
+.deluxepackage li {
+        margin: 12px 0 0 15%;
+        color: rgb(43, 44, 44);
+}
+
+.booknow {
+        width: 16%;
+        height: 28px;
+        background: saddlebrown;
+        margin: 40px 0 0 18%;
+        padding: 12px 0 0 0%;
+        float: left;
+}
+
+.booknow:hover {
+        background: whitesmoke;
+        border: 1px solid saddlebrown;
+}
+
+.booknow a {
+        text-decoration: none;
+        color: whitesmoke;
+        background: saddlebrown;
+        padding: 12px 6% 10px 7%;
+}
+
+.booknow a:hover {
+        color: saddlebrown;
+        background: transparent;
+}
+
+
+
+.primiumroomheader {
+        width: 58%;
+        height: 65px;
+        background: orange;
+        margin: 50px 0 30px 1%;
+        font-size: 35px;
+        font-weight: bold;
+        padding: 25px 0 0 40%;
+}
+
+.primiumcontainer1 {
+        width: 49%;
+        height: 550px;
+        margin: 20px 0 0 1%;
+        background: white;
+        float: left;
+}
+
+.primiumimgbox1 {
+        width: 60%;
+        height: 250px;
+        background: white;
+        margin: 8px 0 0 2%;
+        padding: 5px 0 5px 0.30%;
+        box-shadow: 1px 1px 20px 2px rgb(7, 7, 7);
+        border: 1px solid gray;
+}
+
+.primiumimgbox1 img {
+        width: 99%;
+        height: 250px;
+}
+
+
+.primiumimgbox2 {
+        width: 100%;
+        height: 250px;
+        background: white;
+        margin: 10px 0 0 60%;
+        padding: 5px 0 5px 0.80%;
+        box-shadow: 1px 1px 20px 2px rgb(7, 7, 7);
+        border: 1px solid gray;
+}
+
+.primiumimgbox2 img {
+        width: 99%;
+        height: 250px;
+}
+
+
+.primiumcontainer2 {
+        width: 49%;
+        height: 550px;
+        margin: 20px 1% 0 0;
+        background: white;
+        float: right;
+}
+
+.primiumpackage {
+        width: 98%;
+        height: 530px;
+        background: white;
+        margin: 0 1% 0 1%;
+}
+
+.primiumpackage ul {
+        margin: 10px 0 40px 18%;
+        font-size: 25px;
+        color: saddlebrown;
+        padding: 10px 0 0 0;
+}
+
+.primiumpackage li {
+        margin: 12px 0 0 15%;
+        color: rgb(43, 44, 44);
+}
+
+
+
+.superprimiumroomheader {
+        width: 98%;
+        height: 65px;
+        background: orange;
+        margin: 50px 1% 30px 1%;
+        font-size: 35px;
+        font-weight: bold;
+        float: right;
+        padding: 25px 0 0 0;
+        text-align: center;
+}
+
+.superprimiumcontainer1 {
+        width: 49%;
+        height: 550px;
+        margin: 20px 0 0 1%;
+        background: white;
+        float: left;
+}
+
+
+.superprimiumimgbox1 {
+        width: 60%;
+        height: 250px;
+        background: white;
+        margin: 8px 0 0 2%;
+        padding: 5px 0 5px 0.30%;
+        box-shadow: 1px 1px 20px 2px rgb(7, 7, 7);
+        border: 1px solid gray;
+}
+
+.superprimiumimgbox1 img {
+        width: 99%;
+        height: 250px;
+}
+
+
+.superprimiumimgbox2 {
+        width: 100%;
+        height: 250px;
+        background: white;
+        margin: 10px 0 0 60%;
+        padding: 5px 0 5px 0.80%;
+        box-shadow: 1px 1px 20px 2px rgb(7, 7, 7);
+        border: 1px solid gray;
+}
+
+.superprimiumimgbox2 img {
+        width: 99%;
+        height: 250px;
+}
+
+
+.superprimiumcontainer2 {
+        width: 49%;
+        height: 550px;
+        margin: 20px 1% 0 0;
+        background: white;
+        float: right;
+}
+
+.superprimiumpackage {
+        width: 98%;
+        height: 530px;
+        background: white;
+        margin: 0 1% 0 1%;
+}
+
+.superprimiumpackage ul {
+        margin: 10px 0 40px 18%;
+        font-size: 25px;
+        color: saddlebrown;
+        padding: 10px 0 0 0;
+}
+
+.superprimiumpackage li {
+        margin: 12px 0 0 15%;
+        color: rgb(43, 44, 44);
+}
+
+.gallerybtn {
+        width: 15%;
+        height: 30px;
+        float: left;
+        margin: 100px 43%;
+        font-size: 27px;
+        text-align: center;
+        padding: 10px 0;
+}
+
+.gallerybtn a {
+        text-decoration: none;
+        color: white;
+        background: green;
+        padding: 10px 30%;
+}
+
+.gallerybtn a:hover {
+        background: white;
+        color: green;
+}
+
+
+
+
+/* gallery page start */
+
+
+
+.gallerybnr {
+        width: 98%;
+        height: 350px;
+        margin: 20px 0 0 1%;
+}
+
+.gallerybnr img {
+        width: 100%;
+        height: 350px;
+}
+
+.gallerycontainer {
+        width: 98%;
+        height: auto;
+        background: white;
+        margin: 20px 0 0 1%;
+}
+
+.gallerymenu {
+        width: 100%;
+        height: 200px;
+        background: white;
+}
+
+.all {
+        width: 8%;
+        height: 45px;
+        background: rgb(29, 143, 29);
+        color: white;
+        font-size: 20px;
+        margin: 80px 0 0 13%;
+}
+
+.nature {
+        width: 8%;
+        height: 45px;
+        background: rgb(29, 143, 29);
+        color: white;
+        font-size: 20px;
+        margin: 80px 0 0 8%;
+}
+
+.resort {
+        width: 8%;
+        height: 45px;
+        background: rgb(29, 143, 29);
+        color: white;
+        font-size: 20px;
+        margin: 80px 0 0 8%;
+}
+
+.room {
+        width: 8%;
+        height: 45px;
+        background: rgb(29, 143, 29);
+        color: white;
+        font-size: 20px;
+        margin: 80px 0 0 8%;
+}
+
+.dining {
+        width: 8%;
+        height: 45px;
+        background: rgb(29, 143, 29);
+        color: white;
+        font-size: 20px;
+        margin: 80px 0 0 8%;
+}
+
+.images {
+        width: 98%;
+        height: auto;
+        background: lightgray;
+        margin: 0 1% 0 1%;
+}
+
+.images img {
+        width: 25%;
+        height: 250px;
+        margin: 10px 3% 10px 4%;
+}
+
+.tourismbtn {
+        width: 15%;
+        height: 30px;
+        float: left;
+        margin: 100px 43%;
+        font-size: 27px;
+        text-align: center;
+        padding: 10px 0;
+}
+
+.tourismbtn a {
+        text-decoration: none;
+        color: white;
+        background: green;
+        padding: 10px 30%;
+}
+
+.tourismbtn a:hover {
+        background: white;
+        color: green;
+}
+
+
+/* facilities page start */
+
+
+
+.facibanner {
+        width: 98%;
+        height: 350px;
+        margin: 20px 0 0 1%;
+
+}
+
+.facibanner img {
+        width: 100%;
+        height: 350px;
+}
+
+.facitxt1 {
+        width: 58%;
+        height: 300px;
+        margin: 20px 0 0 1%;
+        background: #fff;
+        padding: 50px 20%;
+}
+
+.facitxt1 ul {
+        margin: 10px 2% 20px 0;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: gotham light;
+}
+
+.facitxt1 li {
+        padding: 5px 0;
+        color: rgb(87, 86, 86);
+        font-family: gotham;
+}
+
+
+.facitxt2 {
+        width: 98%;
+        height: 420px;
+        background: #fff;
+        margin: 20px 1%;
+}
+
+.facilitiesdetail {
+        width: 48%;
+        height: 400px;
+        float: left;
+        background: #fff;
+        margin: 5px 1%;
+}
+
+.facilitiesdetail h1 {
+        font-size: 23px;
+        padding: 10px 0 0 5%;
+        font-family: 'Courier New', Courier, monospace;
+}
+
+.facilitiesdetail h1 hr {
+        width: 87%;
+}
+
+.facilitiesdetail p {
+        padding: 35px 0 0 10%;
+        font-size: 18px;
+        color: rgb(87, 86, 86);
+        font-family: gotham light;
+}
+
+.facilitiesprice {
+        width: 38%;
+        height: 365px;
+        float: right;
+        background: #fff;
+        margin: 5px 1%;
+}
+
+.facilitiesprice {
+        padding: 35px 0 0 10%;
+}
+
+.facilitiesprice p {
+        font-size: 18px;
+        padding: 35px 0 0 10%;
+        color: rgb(87, 86, 86);
+        font-family: gotham light;
+}
+
+.rktcontainer1 {
+        width: 98%;
+        height: 390px;
+        background: white;
+        margin: 20px 1%;
+}
+
+.rktarea1 {
+        width: 48%;
+        height: 300px;
+        background: #fff;
+        float: right;
+        margin: 35px 5% 0 1%;
+}
+
+.rktarea1 h3 {
+        font-size: 25px;
+        font-family: gotham light;
+        padding: 50px 0 0 10%;
+}
+
+.rktarea1 p {
+        padding: 20px 18% 0 10%;
+        font-size: 16px;
+        font-family: gotham;
+        line-height: 21px;
+}
+
+.img1 {
+        width: 32%;
+        height: 250px;
+        background: #fff;
+        float: left;
+        margin: 70px 0 0 5%;
+        box-shadow: 0px 1px 20px 0 rgb(27, 27, 27);
+}
+
+.img1 img {
+        width: 98%;
+        height: 240px;
+        padding: 5px 1%;
+}
+
+
+.rktcontainer2 {
+        width: 98%;
+        height: 390px;
+        background: #fff;
+        margin: 20px 1%;
+}
+
+.rktarea2 {
+        width: 48%;
+        height: 300px;
+        background: #fff;
+        float: left;
+        margin: 35px 1% 0 5%;
+}
+
+.rktarea2 h3 {
+        font-size: 25px;
+        font-family: gotham light;
+        padding: 50px 0 0 10%;
+}
+
+.rktarea2 p {
+        padding: 20px 10% 0 10%;
+        font-size: 16px;
+        font-family: gotham;
+        line-height: 21px;
+}
+
+.img2 {
+        width: 32%;
+        height: 250px;
+        background: #fff;
+        float: right;
+        margin: 70px 5% 0 0;
+        box-shadow: 0px 1px 20px 0 rgb(27, 27, 27);
+}
+
+.img2 img {
+        width: 98%;
+        height: 240px;
+        padding: 5px 1%;
+}
+
+
+.rktcontainer3 {
+        width: 98%;
+        height: 390px;
+        background: #fff;
+        margin: 20px 1%;
+}
+
+.rktarea3 {
+        width: 48%;
+        height: 300px;
+        background: #fff;
+        float: right;
+        margin: 35px 5% 0 1%;
+}
+
+.rktarea3 h3 {
+        font-size: 25px;
+        font-family: gotham light;
+        padding: 50px 0 0 10%;
+}
+
+.rktarea3 p {
+        padding: 20px 18% 0 10%;
+        font-size: 16px;
+        font-family: gotham;
+        line-height: 21px;
+}
+
+.img3 {
+        width: 32%;
+        height: 250px;
+        background: #fff;
+        float: left;
+        margin: 70px 0 0 5%;
+        box-shadow: 0px 1px 20px 0 rgb(27, 27, 27);
+}
+
+.img3 img {
+        width: 98%;
+        height: 240px;
+        padding: 5px 1%;
+}
+
+
+.rktcontainer4 {
+        width: 98%;
+        height: 390px;
+        background: #fff;
+        margin: 20px 1%;
+}
+
+.rktarea4 {
+        width: 48%;
+        height: 300px;
+        background: #fff;
+        float: left;
+        margin: 35px 1% 0 5%;
+}
+
+.rktarea4 h3 {
+        font-size: 25px;
+        font-family: gotham light;
+        padding: 50px 0 0 10%;
+}
+
+.rktarea4 p {
+        padding: 20px 10% 0 10%;
+        font-size: 16px;
+        font-family: gotham;
+        line-height: 21px;
+}
+
+.img4 {
+        width: 32%;
+        height: 250px;
+        background: #fff;
+        float: right;
+        margin: 70px 5% 0 0;
+        box-shadow: 0px 1px 20px 0 rgb(27, 27, 27);
+}
+
+.img4 img {
+        width: 98%;
+        height: 240px;
+        padding: 5px 1%;
+}
+
+.rktcontainer5 {
+        width: 98%;
+        height: 390px;
+        background: #fff;
+        margin: 20px 1%;
+}
+
+.rktarea5 {
+        width: 48%;
+        height: 300px;
+        background: #fff;
+        float: left;
+        margin: 35px 1% 0 5%;
+}
+
+.rktarea5 h3 {
+        font-size: 25px;
+        font-family: gotham light;
+        padding: 50px 0 0 10%;
+}
+
+.rktarea5 p {
+        padding: 20px 10% 0 10%;
+        font-size: 16px;
+        font-family: gotham;
+        line-height: 21px;
+}
+
+.img5 {
+        width: 32%;
+        height: 250px;
+        background: #fff;
+        float: right;
+        margin: 70px 5% 0 0;
+        box-shadow: 0px 1px 20px 0 rgb(27, 27, 27);
+}
+
+.img5 img {
+        width: 98%;
+        height: 240px;
+        padding: 5px 1%;
+}
+
+
+/* facilities page End */
+
+
+
+/* Tourism page start */
+
+
+.Tourismbnr {
+        width: 98%;
+        height: 350px;
+        margin: 20px 0 0 1%;
+}
+
+.Tourismbnr img {
+        width: 100%;
+        height: 350px;
+}
+
+.rt {
+        width: 98%;
+        height: 100px;
+        background: transparent;
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 40px;
+        font-family: Gotham;
+        color: rgb(3, 119, 3);
+}
+
+.rktbox1 {
+        width: 98%;
+        height: 280px;
+        margin-left: 1%;
+        background-color: whitesmoke;
+        margin-bottom: 10px;
+}
+
+.rktbox1 {
+        box-shadow: 0px 15px 10px -15px #666666;
+}
+
+.rktcontent {
+        width: 35%;
+        height: 180px;
+        background: transparent;
+        padding: 40px 0 25px 12%;
+        font-size: 18px;
+        color: rgb(141, 138, 138);
+        font-family: gotham light;
+        line-height: 21px;
+        float: left;
+        -webkit-font-smoothing: antialiased;
+}
+
+.rktimgshadow {
+        width: 30%;
+        height: 225px;
+        background: transparent;
+        float: right;
+        margin: 15px 15% 25px 0;
+        ;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        ;
+}
+
+.rktimg img {
+        width: 96%;
+        margin: 5px 0 5px 2%;
+}
+
+
+
+.rktbox2 {
+        width: 98%;
+        height: 280px;
+        margin-left: 1%;
+        background-color: whitesmoke;
+        margin-bottom: 10px;
+}
+
+.rktbox2 {
+        box-shadow: 0px 15px 10px -15px #111;
+}
+
+.rktimgshadow2 {
+        width: 30%;
+        height: 225px;
+        background: transparent;
+        float: left;
+        margin: 15px 0 25px 12%;
+        ;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        ;
+}
+
+.rktimg2 img {
+        width: 96%;
+        margin: 5px 0 5px 2%;
+}
+
+.rktcontent2 {
+        width: 35%;
+        height: 180px;
+        background: transparent;
+        padding: 20px 10% 25px 0;
+        font-size: 18px;
+        color: rgb(141, 138, 138);
+        font-family: gotham light;
+        line-height: 21px;
+        float: right;
+        -webkit-font-smoothing: antialiased;
+}
+
+
+
+.rktbox3 {
+        width: 70%;
+        height: auto;
+        margin: 20px 0 0 0;
+        background: whitesmoke;
+        padding: 50px 15%;
+        margin-bottom: 10px;
+}
+
+.rktbox3 {
+        box-shadow: 0px 15px 10px -15px #111;
+}
+
+.rktbox3 ul {
+        margin: 10px 2% 20px 0;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: gotham light;
+}
+
+.rktbox3 li {
+        padding: 5px 0;
+        color: rgb(87, 86, 86);
+        font-family: gotham;
+}
+
+.rktbox3 p {
+        color: rgb(87, 86, 86);
+        font-family: gotham;
+}
+
+
+.rktbox4container {
+        width: 98%;
+        height: auto;
+}
+
+.rktbox4 {
+        width: 100%;
+        height: 280px;
+        margin-left: 1%;
+        background-color: whitesmoke;
+}
+
+.rktcontent4 {
+        width: 35%;
+        height: 180px;
+        background: transparent;
+        padding: 40px 0 25px 12%;
+        float: left;
+}
+
+.rktcontent4 span {
+        font-family: Gotham;
+        font-size: x-large;
+        line-height: 10px;
+        color: rgb(63, 62, 62);
+}
+
+.rktcontent4 p {
+        font-family: gotham;
+        color: rgb(87, 86, 86);
+        font-size: 15px;
+        line-height: 22px;
+}
+
+.rktimgshadow4 {
+        width: 30%;
+        height: 225px;
+        background: transparent;
+        float: right;
+        margin: 25px 15% 25px 0;
+        ;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        ;
+}
+
+.rktimg4 img {
+        width: 96%;
+        margin: 5px 0 5px 2%;
+}
+
+.rktbox5 {
+        width: 88%;
+        height: auto;
+        margin-left: 1%;
+        background: whitesmoke;
+        padding: 2px 0 0 12%;
+}
+
+.rktbox5 span {
+        font-family: Gotham;
+        font-size: x-large;
+        line-height: 10px;
+        color: rgb(63, 62, 62);
+}
+
+.rktbox5 p {
+        font-family: gotham;
+        color: rgb(87, 86, 86);
+        font-size: 15px;
+}
+
+.rktbox6 {
+        width: 100%;
+        height: 310px;
+        margin-left: 1%;
+        background-color: whitesmoke;
+}
+
+.rktcontent6 {
+        width: 35%;
+        height: 180px;
+        background: transparent;
+        padding: 10px 0 25px 12%;
+        float: left;
+}
+
+.rktcontent6 span {
+        font-family: Gotham;
+        font-size: x-large;
+        line-height: 10px;
+        color: rgb(63, 62, 62);
+}
+
+.rktcontent6 p {
+        font-family: gotham;
+        color: rgb(87, 86, 86);
+        font-size: 15px;
+        line-height: 22px;
+}
+
+.rktimgshadow6 {
+        width: 30%;
+        height: 225px;
+        background: transparent;
+        float: right;
+        margin: 25px 15% 25px 0;
+        ;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        ;
+}
+
+.rktimg6 img {
+        width: 96%;
+        margin: 5px 0 5px 2%;
+}
+
+
+.rktbox7 {
+        width: 88%;
+        height: auto;
+        margin-left: 1%;
+        background: whitesmoke;
+        padding: 10px 0 0px 12%;
+}
+
+.rktbox7 span {
+        font-family: Gotham;
+        font-size: x-large;
+        line-height: 10px;
+        color: rgb(63, 62, 62);
+}
+
+.rktbox7 p {
+        font-family: gotham;
+        color: rgb(87, 86, 86);
+        font-size: 15px;
+}
+
+
+.rktbox8 {
+        width: 100%;
+        height: 250px;
+        margin-left: 1%;
+        background-color: whitesmoke;
+}
+
+.rktcontent8 {
+        width: 35%;
+        height: 180px;
+        background: transparent;
+        padding: 15px 0 25px 12%;
+        float: left;
+}
+
+.rktcontent8 span {
+        font-family: Gotham;
+        font-size: x-large;
+        line-height: 10px;
+        color: rgb(63, 62, 62);
+}
+
+.rktcontent8 p {
+        font-family: gotham;
+        color: rgb(87, 86, 86);
+        font-size: 15px;
+        line-height: 22px;
+}
+
+.rktimgshadow8 {
+        width: 30%;
+        height: 225px;
+        background: transparent;
+        float: right;
+        margin: 5px 15% 25px 0;
+        ;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        ;
+}
+
+.rktimg8 img {
+        width: 96%;
+        margin: 5px 0 5px 2%;
+}
+
+
+/* tourism page End */
+
+
+/* about page start */
+
+
+.aboutbanner {
+        width: 98%;
+        height: 350px;
+        margin: 20px 0 0 1%;
+}
+
+.aboutbanner img {
+        width: 100%;
+        height: 350px;
+}
+
+.abtcontent1 {
+        width: 78%;
+        height: auto;
+        background-color: none;
+        margin: 50px 0 0 1%;
+        padding: 10px 10%;
+        font-size: larger;
+        color: #292828;
+}
+
+.abtcontent1 p {
+        font-family: poppins;
+        color: #666666;
+        font-size: medium;
+        line-height: 23px;
+}
+
+.tab {
+        width: 78%;
+        height: auto;
+        background: none;
+        margin: 0 0 0 1%;
+        padding: 0 10%;
+        color: #4d4d4d;
+        font-size: large;
+}
+
+.tab caption {
+        font-size: x-large;
+        padding: 20px 0;
+        color: #252525;
+}
+
+.tab caption {
+        text-align: left;
+}
+
+.abtbox1 {
+        width: 98%;
+        height: auto;
+        margin-left: 1%;
+        background-color: none;
+        margin-bottom: 10px;
+}
+
+.abtshadow1 {
+        width: 30%;
+        height: 225px;
+        background: transparent;
+        float: left;
+        margin: 15px 0 25px 12%;
+        ;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        ;
+}
+
+.abtimg1 img {
+        width: 96%;
+        margin: 5px 0 5px 2%;
+}
+
+.abtcontent2 {
+        width: 40%;
+        height: auto;
+        background: transparent;
+        padding: 20px 5% 25px 0;
+        font-size: 18px;
+        color: rgb(141, 138, 138);
+        font-family: gotham light;
+        line-height: 21px;
+        float: right;
+        -webkit-font-smoothing: antialiased;
+}
+
+.abtcontent2 h3 {
+        font-family: gotham light;
+        color: #111;
+}
+
+
+/* about page End */
+
+/* contact page Start */
+
+
+
+.contactbnr {
+        width: 98%;
+        height: 350px;
+        margin: 20px 0 0 1%;
+}
+
+.contactbnr img {
+        width: 100%;
+        height: 350px;
+}
+
+.cb1 {
+        width: 98%;
+        height: 60px;
+        margin: 10px 1%;
+        background: transparent;
+        padding: 25px 0;
+}
+
+.cb1 p {
+        font-size: 28px;
+        padding-left: 44%;
+        color: #f32020;
+        font-family: gotham light;
+        font-weight: bolder;
+}
+
+.cb1 h2 {
+        font-size: 32px;
+        padding-left: 35%;
+        color: #1d881d;
+        font-family: Roboto light;
+}
+
+
+.infobox {
+        width: 98%;
+        height: 570px;
+        margin: 0 1%;
+}
+
+.info {
+        width: 30%;
+        height: 550px;
+        background: #E8F6EF;
+        float: left;
+        margin: 0 4%;
+}
+
+.info ul {
+        font-size: 25px;
+        margin: 35px 0 0 20%;
+        font-family: gotham bold;
+        letter-spacing: 1px;
+}
+
+.info li {
+        list-style: none;
+}
+
+.info li {
+        font-size: 17px;
+        color: #666666;
+        font-family: gotham light;
+        margin: 10px 20%;
+        letter-spacing: 0.50px;
+}
+
+.contactus {
+        width: 50%;
+        height: 550px;
+        background: lightgray;
+        float: right;
+        margin: 0 4%;
+}

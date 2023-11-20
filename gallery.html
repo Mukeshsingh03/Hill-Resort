@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> U.K Ranikhet Hill Resort (Uttrakhand) </title>
+    <!--website icon-->
+    <link rel="website icon" type="png" href="images/hilllogo.png">
+
+    <!--css file-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <!--fontawesome icon link-->
+    <script src="https://kit.fontawesome.com/8651475575.js" crossorigin="anonymous"></script>
+
+    <!--jquery file-->
+    <script src="jquery-3.6.4.js"> </script>
+
+    <!-- wow js link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--close wow js link -->
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="topheader">
+            <div class="topbox1  wow animate__animated animate__fadeInDown">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-address-book" target="_blank"> </i>
+                        <a href="tel: +91 8700355051"> + 91 8700355051 </a>
+                    </li>
+            </div>
+
+            <div class="topbox2  wow animate__animated animate__fadeInDown">
+                <ul>
+                    <li> <i class="fa-solid fa-envelope" target="_blank"></i>
+                        <a href="Mail to :ms9975328@gmail.com"> Ranikhet01@gmail.com </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="iconbox">
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/mehra_0003" target="_blank">
+                            <i class="fa-brands fa-square-instagram fa-2x socialicon"> </a></i>
+                    </li>
+
+                    <li> <a href="https://www.facebook.com/Mukesh Singh (Mukki)" target="_blank">
+                            <i class="fa-brands fa-square-facebook fa-2x socialicon"> </a></i> </li>
+
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="header">
+            <div class="logobox" title="logo"> <a href="index.html"> <img src="images/hilllogo.png"> </a> </div>
+            <div class="menubox">
+                <ul>
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="facilities.html"> facilities </a> </li>
+                    <li> <a href="room.html"> Room </a> </li>
+                    <li> <a href="gallery.html"> Gallery </a> </li>
+                    <li> <a href="Tourism.html"> Tourism </a> </li>
+                    <li> <a href="about.html"> About </a> </li>
+                    <li> <a href="Contact.html"> Contact </a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="gallerybnr"> <img src="images/newgallerybanner.jpg" title="our gallery"> </div>
+        <div class="gallerycontainer">
+            <div class="gallerymenu">
+                <button class="all  wow animate__animated animate__fadeInDown"> All </button>
+                <button class="nature  wow animate__animated animate__fadeInDown"> NATURE </button>
+                <button class="resort  wow animate__animated animate__fadeInDown"> RESORT </button>
+                <button class="room  wow animate__animated animate__fadeInDown"> ROOM </button>
+                <button class="dining  wow animate__animated animate__fadeInDown"> DINNING </button>
+            </div>
+        </div>
+        <div class="images">
+            <img src="gallery/nature1.jpg" alt="nature">
+            <img src="gallery/resort1.jpg" alt="resort">
+            <img src="gallery/room1.jpg" alt="room">
+            <img src="gallery/dining1.jpg" alt="dining">
+
+            <img src="gallery/nature2.jpg" alt="nature">
+            <img src="gallery/resort2.jpg" alt="resort">
+            <img src="gallery/room2.jpg" alt="room">
+            <img src="gallery/dining2.jpg" alt="dining">
+
+            <img src="gallery/nature3.jpg" alt="nature">
+            <img src="gallery/resort3.jpg" alt="resort">
+            <img src="gallery/room3.jpg" alt="room">
+            <img src="gallery/dining3.jpg" alt="dining">
+
+            <img src="gallery/nature4.jpg" alt="nature">
+            <img src="gallery/resort4.jpg" alt="resort">
+            <img src="gallery/room4.jpg" alt="room">
+            <img src="gallery/dining4.jpg" alt="dining">
+
+            <img src="gallery/nature5.jpg" alt="nature">
+            <img src="gallery/resort5.jpg" alt="resort">
+            <img src="gallery/room5.jpg" alt="room">
+            <img src="gallery/dining5.jpg" alt="dining">
+            <img src="gallery/nature6.jpg" alt="nature">
+        </div>
+        <script>
+            $(document).ready(function () {
+
+                $('.all').click(function () {
+                    $('img[alt="all"]').fadeOut(1000);
+                    $('img[alt="nature"]').fadeIn(1000);
+                    $('img[alt="resort"]').fadeIn(1000);
+                    $('img[alt="dining"]').fadeIn(1000);
+                    $('img[alt="room"]').fadeIn(1000);
+                });
+
+                $('.nature').click(function () {
+                    $('img[alt="nature"]').fadeIn(1000);;
+                    $('img[alt="resort"]').fadeOut(1000);
+                    $('img[alt="dining"]').fadeOut(1000);
+                    $('img[alt="room"]').fadeOut(1000);
+                });
+
+                $('.resort').click(function () {
+                    $('img[alt="resort"]').fadeIn(1000);
+                    $('img[alt="dining"]').fadeOut(1000);
+                    $('img[alt="room"]').fadeOut(1000);
+                    $('img[alt="nature"]').fadeOut(1000);
+                });
+
+                $('.room').click(function () {
+                    $('img[alt="room"]').fadeIn(1000);
+                    $('img[alt="dining"]').fadeOut(1000);
+                    $('img[alt="resort"]').fadeOut(1000);
+                    $('img[alt="nature"]').fadeOut(1000);
+                });
+
+                $('.dining').click(function () {
+                    $('img[alt="dining"]').fadeIn(1000);
+                    $('img[alt="resort"]').fadeOut(1000);
+                    $('img[alt="room"]').fadeOut(1000);
+                    $('img[alt="nature"]').fadeOut(1000);
+                });
+
+            });
+        </script>
+
+        <div class="tourismbtn"> <a href="tourism.html"> Tourism </a> </div>
+
+        <div class="footer">
+            <div class="f1">
+                <p> The Ranikhet hill Resort,
+                    Somnath <br>ground, Ranikhet, Village Mangchoura,<br> Uttarakhand - 263651 India. </p> <br>
+                <p id="new"> Contact : +91 9953136456 </p> <br>
+                <p id="new"> Contact : +91 8700355051 </p> <br>
+                <p id="new"> Email : info@Ranikhet01.com </p>
+            </div>
+
+            <div class="f2">
+
+                <ul> Quick Links <br><br>
+                    <li> <a href="facilities.html"> Facilities </a></li><br>
+                    <li> <a href="room.html"> Room </a></li><br>
+                    <li> <a href="gallery.html"> Gallery </a></li><br>
+                    <li> <a href="tourism.html"> Tourism </a></li><br>
+                </ul>
+            </div>
+
+
+            <div class="f3">
+                <p> Contact us </p> <br> <br>
+                <form> <input type="email" name="email" id="email" placeholder="your mail"> <br> <br>
+                    <input type="submit" id="btn">
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="ftbox"> © The Ranikhet hill Resort 2023. | Website By - Mukesh singh mehra </div>
+    </div>
+
+
+    <!--wow js link-->
+
+    <script>
+
+        new WOW().init();
+
+    </script>
+
+</html>
+</body>
